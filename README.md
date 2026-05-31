@@ -1,4 +1,4 @@
-# 🎮 Rock Paper Scissors – Java Console Project
+# 🎮 Tic Tac Toe – Java Console Project
 
 ## 👩‍💻 Developed by
 **J A Sameeksha**  
@@ -6,41 +6,40 @@ Computer Science & Engineering (AI & ML)
 MITE – Mangalore Institute of Technology and Engineering
 
 ## 🚀 About the Project
-Rock, Paper, Scissors — the classic hand game, now on your terminal! This is a fun console-based Java game where you go head to head against the computer. Choose your move, see what the computer picks, and find out who wins the round. Play as many rounds as you want and see who comes out on top!
+Ever played Tic Tac Toe with a friend and wished you could play anytime, anywhere? This is exactly that — but against a computer! The Tic Tac Toe Game is a fun console-based Java game where you play as X against a CPU opponent O on a classic 3×3 board. Block the CPU, make your move, and get three in a row to win!
 
 ## ✨ Key Features
-- 🤖 Human vs Computer gameplay
-- 🔁 Play again option for multiple rounds
-- 🏆 Win, lose and draw detection per round
-- 📊 Final session summary with total wins, losses and draws
-- 🥇 Overall winner announcement at the end
-- ✅ Input validation – handles out of range inputs
-- 👤 Player name personalization
-- 🧩 OOP design with separate game class for choice display
+- 🤖 Human vs CPU gameplay
+- 🎯 Random CPU move generation
+- 🏆 Win, lose and draw detection
+- ✅ Input validation – handles out of range and already taken positions
+- 📋 Live board update after every move
+- 🔢 Numbered board reference for easy position selection
+- 🧩 OOP design with separate GameBoard class
 
 ## 🛠️ Tech Stack
 - Java
 - OOP (Classes and Methods)
+- Collections (ArrayList)
 - Random number generation
-- Try-with-resources for Scanner
 
 ## ▶️ How to Run
 **Step 1 – Compile**
 ```bash
-javac RPS_Game.java
+javac TicTacToe.java
 ```
 **Step 2 – Run**
 ```bash
-java RPS_Game
+java TicTacToe
 ```
 
 ## 🧠 What I Learned
-- Using a separate class to handle display logic
-- Implementing game loop with do-while
-- Tracking multiple counters (wins, losses, draws)
-- Using try-with-resources for proper resource management
-- Validating user input with while loop
-- Writing clean and readable Java console applications
+- Designing a two-class OOP structure with GameBoard and TicTacToe
+- Using a 2D char array to represent and update the game board
+- Tracking player and CPU positions using ArrayList
+- Implementing win and draw detection logic
+- Handling invalid and duplicate user input gracefully
+- Writing clean, readable and maintainable Java code
 
 ## 📌 Conclusion
-This started as a simple hand game and grew into a well-structured Java project with OOP design, input validation, session tracking, and overall winner detection. It was a fun way to apply core Java concepts to a classic game everyone knows!
+This started as a simple board game and grew into a well-structured Java project with OOP design, win/draw detection, input validation, and CPU gameplay. It was a great hands-on experience to apply core Java concepts to something fun and interactive!
